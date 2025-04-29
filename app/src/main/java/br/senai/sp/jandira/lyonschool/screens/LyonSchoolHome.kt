@@ -33,7 +33,7 @@ import androidx.compose.ui.unit.sp
 import br.senai.sp.jandira.lyonschool.R
 
 @Composable
-fun HomeLyon(){
+fun HomeScreenLyon(){
     Box(
         modifier = Modifier
             .fillMaxSize()
@@ -172,5 +172,5 @@ fun HomeLyon(){
 @Preview
 @Composable
 private fun HomeScreenPreview() {
-    HomeLyon()
+    HomeScreenLyon()
 }
